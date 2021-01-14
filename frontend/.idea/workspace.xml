@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="029ad1aa-e045-4ec2-9dd5-ab8ec4c474fa" name="Default Changelist" comment="2021.1.10" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mPj6FsRqW6TdeUNbbf3qIcFCdC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="G:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IR\frontend\src\assets" />
+      <recent name="F:\IR\frontend\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IR\frontend\src\views" />
+      <recent name="F:\IR\frontend\src\assets\img" />
+      <recent name="F:\IR\frontend\src\api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="029ad1aa-e045-4ec2-9dd5-ab8ec4c474fa" name="Default Changelist" comment="" />
+      <created>1609401945436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609401945436</updated>
+      <workItem from="1609401948754" duration="1165000" />
+      <workItem from="1609403174749" duration="866000" />
+      <workItem from="1609493614309" duration="2120000" />
+      <workItem from="1609506452009" duration="16393000" />
+      <workItem from="1609683725477" duration="3035000" />
+      <workItem from="1609845471920" duration="240000" />
+      <workItem from="1609845991061" duration="60000" />
+      <workItem from="1609846092260" duration="11610000" />
+      <workItem from="1609908747064" duration="4221000" />
+      <workItem from="1609921392892" duration="15932000" />
+      <workItem from="1609985055998" duration="27960000" />
+      <workItem from="1610091032190" duration="64633000" />
+      <workItem from="1610275744824" duration="5526000" />
+      <workItem from="1610285181407" duration="8065000" />
+      <workItem from="1610341938286" duration="326000" />
+      <workItem from="1610342500951" duration="606000" />
+      <workItem from="1610356116698" duration="6240000" />
+      <workItem from="1610367559169" duration="10606000" />
+      <workItem from="1610416110441" duration="6087000" />
+      <workItem from="1610427414105" duration="969000" />
+      <workItem from="1610428433168" duration="9314000" />
+      <workItem from="1610437973517" duration="343000" />
+      <workItem from="1610438358391" duration="2553000" />
+      <workItem from="1610459167773" duration="15259000" />
+      <workItem from="1610530729508" duration="16908000" />
+      <workItem from="1610591117668" duration="13760000" />
+      <workItem from="1610607686848" duration="1435000" />
+    </task>
+    <task id="LOCAL-00001" summary="2021.1.10">
+      <created>1610368560530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610368560530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Haley_version1" />
+    <MESSAGE value="2021.1.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021.1.10" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/api/api.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
