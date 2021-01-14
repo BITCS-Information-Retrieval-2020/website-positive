@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -90,7 +90,8 @@
       <workItem from="1610459167773" duration="15259000" />
       <workItem from="1610530729508" duration="16908000" />
       <workItem from="1610591117668" duration="13760000" />
-      <workItem from="1610607686848" duration="1435000" />
+      <workItem from="1610607686848" duration="840000" />
+      <workItem from="1610611363461" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="2021.1.10">
       <created>1610368560530</created>
