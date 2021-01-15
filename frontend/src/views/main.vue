@@ -12,7 +12,7 @@
       </div>
     </el-row>
     <div class="mainwindow">
-      <el-carousel height="550px" arrow="always" interval="3000">
+      <el-carousel height="550px" arrow="always" :interval="3000">
         <div class="bannerSelectInput">
           <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="ruleForm" :inline="true">
             <el-form-item prop="theme">

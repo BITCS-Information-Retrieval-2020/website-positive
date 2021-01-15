@@ -41,7 +41,6 @@
       <div class="page">
         <el-table :data="(tableData)" @row-click="openDetail"
                   size="medium"
-                  v-loading="loading"
                   style="width: 100%;border:1px solid #DEE1E7;padding-left:1px"
                   :header-cell-style="{background:'#577ABC','font-size':'14px','font-weight':'550',color:'#FFFFFF',height:'35px'}"
                   element-loading-text="$t('action.loading')"
@@ -159,19 +158,17 @@ export default {
           return false;
         }
       });
-    }
-    ,
-    querySearchAsync(ruleForm, cb) {
+    }, querySearchAsync(ruleForm, cb) {
       getAjaxData(this.ruleForm)
         .then(res => {
           this.result = res.data
         });
+      cb(this.result);
       clearTimeout(this.timeout);
       this.timeout = setTimeout(() => {
         cb(this.result);                                     //cb()会将json对象的第一个属性拼接到下拉列表中
       }, 3000 * Math.random());
-    }
-    ,
+    },
     handleSelect(item) {
       console.log(item);
     }
@@ -208,8 +205,7 @@ export default {
       this.$router.push({name: 'Main'})
     }
     ,
-  }
-  ,
+  },
   components: {
     BottomIndex
   }
