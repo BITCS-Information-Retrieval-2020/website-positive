@@ -46,22 +46,29 @@
                   element-loading-text="$t('action.loading')"
         >
           <el-table-column header-align="center" align="center"
-                           prop="tittle"
+                           :show-overflow-tooltip="true"
+                           prop="title"
                            label="标题"
                            width="250">
           </el-table-column>
           <el-table-column header-align="center" align="center"
+                           :show-overflow-tooltip="true"
                            prop="author"
                            label="作者"
-                           width="180">
+                           width="250">
           </el-table-column>
           <el-table-column header-align="center" align="center"
                            prop="publish_at"
-                           label="年份">
+                           label="年份"
+                           width="180">
+
           </el-table-column>
           <el-table-column header-align="center" align="center"
+                           :show-overflow-tooltip="true"
                            prop="publisher"
-                           label="出版社">
+                           label="出版社"
+                           width="280"
+                           >
           </el-table-column>
           <el-table-column header-align="center" align="center"
                            :show-overflow-tooltip="true"
@@ -295,5 +302,8 @@ export default {
   font-size: large;
   font-family: 宋体;
   font-weight: bolder;
+}
+.el-autocomplete{
+  width: 390px
 }
 </style>

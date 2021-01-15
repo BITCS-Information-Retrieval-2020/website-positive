@@ -37,6 +37,7 @@
             </el-row>
           </el-header>
           <el-main>
+            <br>
             <h5>
               {{ author }}
             </h5>
@@ -44,7 +45,7 @@
               <div>
                 摘要：{{ abstract }}
               </div>
-              <br><br>
+              <br>
               <div>
                 出版社：{{ publisher }}
               </div>
@@ -55,7 +56,7 @@
             </div>
             <div class="indexbox">
               <div class="boxFour">
-                <el-row :gutter="10" justify="center">
+                <el-row :gutter="10" >
                   <el-col :span="8">
                     <a :href="this.pdf" target="_blank" style="color: white">
                       <i class="el-icon-document"></i>
@@ -125,7 +126,7 @@ export default {
     }
     console.log(params)
     this.video = params.video
-    this.title = params.tittle
+    this.title = params.title
     this.dataset_url = params.dataset_url
     this.abstract = params.abstract
     this.keyword_in_video_time = params.keyword_in_video_time
@@ -233,7 +234,7 @@ export default {
   margin: 0;
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
-  -webkit-margin-start: 220px;
+  -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   padding-top: 80px;
   /* border:1px solid #ddd; */
@@ -258,8 +259,8 @@ a {
   color: #fff;
   font-family: "黑体";
   padding-bottom: 2%;
-  font-size: 2em;
-  letter-spacing: 10px;
+  font-size: 1.5em;
+  letter-spacing: 0px;
   font-weight: 800;
   padding-left: 0px;
 }

@@ -215,4 +215,7 @@ export default {
 .el-input {
   width: 390px;
 }
+.el-autocomplete{
+  width: 390px
+}
 </style>
