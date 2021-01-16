@@ -25,13 +25,9 @@
 
 # 功能展示
 
-网站主要有三种页面分别为首页，搜索结果列表页，论文的详细信息页，以下为三种页面的图片显示。
+网站主要有三种页面分别为首页，搜索结果列表页，论文的详细信息页，以下为三种页面的图片显示。![image-20210115171506862.png](https://ae05.alicdn.com/kf/H339066233c55481495867694999e8956k.png)
 
-![image-20210115171506862](C:\Users\Haley\AppData\Roaming\Typora\typora-user-images\image-20210115171506862.png)
-
-![image-20210115172552554](C:\Users\Haley\AppData\Roaming\Typora\typora-user-images\image-20210115172552554.png)
-
-![image-20210115172149257](C:\Users\Haley\AppData\Roaming\Typora\typora-user-images\image-20210115172149257.png)
+![image-20210115172552554.png](https://ae03.alicdn.com/kf/H763fd580269343beb66a3ac90fa3f765m.png)
 
 网站首页：可以进行带有主题选择的搜索，主题有作者、标题、摘要三种，可以选择零到多个主题，查询带有auto-complete自动填充提示，其中查询不能为空，为空无法进入搜索页面，并且会有相应提示信息。
 
