@@ -366,3 +366,9 @@ net start MongoDB
 python manage.py runserver 8090
 ```
 
+# 代码风格检测结果
+
+![flake8.png](https://ae02.alicdn.com/kf/Hfaa1a7d394a04d9d8e55a8e1d6759bc16.png)
+
+
+

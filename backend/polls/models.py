@@ -1,6 +1,5 @@
-from bson import ObjectId
+
 from django.db import models
-import mongoengine
 
 
 # Create your models here.

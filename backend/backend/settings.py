@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+from mongoengine import connect
 from pathlib import Path
 import os
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'x$(c##$e6xa&*5$i#cq#^*@8%r(welm4e1^h2^rnveh-fzjbx5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 # Application definition
 
@@ -61,8 +62,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -132,11 +132,10 @@ DATABASES = {
 }
 
 STATICFILES_DIRS = [
-# 设置根目录的静态资源文件夹static
-os.path.join(BASE_DIR,'static'),
+    # 设置根目录的静态资源文件夹static
+    os.path.join(BASE_DIR, 'static'),
 ]
 
-from mongoengine import connect
 
 connect('IR', host='127.0.0.1')
 
@@ -150,9 +149,9 @@ LOGGING = {
         },
     },
     'handlers': {
-        'console':{
-            'level':'INFO',
-            'class':'logging.StreamHandler',
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
             'formatter': 'verbose'
         },
         'file': {
@@ -164,7 +163,7 @@ LOGGING = {
         'email': {
             'level': 'ERROR',
             'class': 'django.utils.log.AdminEmailHandler',
-            'include_html' : True,
+            'include_html': True,
         }
     },
     'loggers': {
